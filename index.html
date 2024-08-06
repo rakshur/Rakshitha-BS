@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-image: url("https://th.bing.com/th/id/OIP.TV8VWLPnwUSuS9hc3rQL_gHaEo?w=238&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+            background-size: cover;
+            position: relative;
+            animation-name: movingbox;
+            animation-duration: 6s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 2;
+            animation-direction:normal;
+        }
+        /*short hand property*/
+        /*animation:moving 4s linear 1s infinite alternate-reverse*/
+        @keyframes movingbox{
+            0%{
+                top: 0;
+                left: 0;
+                
+            }
+            25%{
+                top: 0;
+                left: 500px;
+                background-image: url("https://th.bing.com/th/id/OIP.KdTPHNtglNm_TFxZzJYO1gHaFj?w=212&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+                background-size: cover;
+            }
+            50%{
+                top:500px;
+                left: 500px;
+                background-image: url("https://th.bing.com/th/id/OIP.f7orl9wC2R0YLZT5lQJpigHaF7?w=266&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+                background-size: cover;
+            }
+            75%{
+                top:500px;
+                left: 0;
+                background-image:url("https://th.bing.com/th/id/OIP.ge_0brdQaZD07qhPX8XacgHaE8?w=249&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+                background-size: cover;
+            }
+            100%{
+                top: 0;
+                left: 0;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66ada48432dca6db2cb97aba/1i4b4lad1';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
